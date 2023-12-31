@@ -1,5 +1,5 @@
 # RVE
-Data use for experiments in the RVE paper
+Data use for experiments in the RVE paper:
 
 "experi1.mat": .matlab file for the 2000x2000 stationary micrograph used in experiment 1;
 
