@@ -16,7 +16,7 @@ def load_2um():
         im = sio.loadmat(path)
         return im
     
-    im = load_image('../data/2um.mat')
+    im = load_image('../data/experi_1.mat')
     img_arr = im['newMS']
     return img_arr
 
@@ -26,7 +26,7 @@ def load_15um():
         im = sio.loadmat(path)
         return im
     
-    im = load_image('../data/flakes15.mat')
+    im = load_image('../data/experi2_15.mat')
     img_arr = im['ReconImg']
     return img_arr
 
@@ -36,7 +36,7 @@ def load_30um():
         im = sio.loadmat(path)
         return im
     
-    im = load_image('../data/flakes30.mat')
+    im = load_image('../data/experi2_30.mat')
     img_arr = im['ReconImg']
     return img_arr
 
@@ -46,7 +46,7 @@ def load_60um():
         im = sio.loadmat(path)
         return im
     
-    im = load_image('../data/TrainData1#(1).mat')
+    im = load_image('../data/experi3.mat')
     img_arr = im['TrainData'][0][0][2]
     return img_arr
 
