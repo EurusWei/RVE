@@ -10,7 +10,7 @@ Data use for experiments in the RVE paper:
 "experi3.mat": .matlab file for the 4000x4000 ($60\mu m\times 60\mu m)$ micrograph used in experiment 3.
 
 
-To run the algorithm, download the .mat files in data folder, revise the path in read_data.py, and run
+To run the algorithm, download the .mat files in data folder, revise the path in read_data.py, and run the below command.
 ```
 python3 main.py --data='2um' --model='nnet' --filename='2um_nnet'
 ```
